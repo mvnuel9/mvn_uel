@@ -34,7 +34,7 @@ function Loader() {
         </div>
       </div>
 
-      <footer className={styles.footer}>© Mvnuel. 2025. All rights reserved.</footer>
+      <footer className={styles.footer}>© 2025 Mvnuel</footer>
     </div>
   );
 }
