@@ -1,5 +1,5 @@
 :root {
-  --background-color: #e2da7d;
+  --background-color: #f8f6dc;
   --btn-color: #0364d4;
   --btn-text-color: #ffffff;
   --project-card-bg: #ffffff00;
@@ -77,6 +77,8 @@ h2{
     blink 0.75s step-end infinite;
   max-width: fit-content;
 }
+
+
 
 @keyframes typing {
   0% {

@@ -23,7 +23,7 @@ function Loader() {
         />
         <h1 className={styles.name}>
           KOFFI<br className={styles.mobileBreak} />
-          LUC-EMMANUEL
+          LUCK-EMMANUEL
         </h1>
         <h3 className={styles.title}>Développeur Fullstack Junior</h3>
 
