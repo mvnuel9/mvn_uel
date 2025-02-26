@@ -1,7 +1,7 @@
 import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/profle.jpg';
-import sun from '../../assets/on.svg';
-import moon from '../../assets/off.svg';
+import light from '../../assets/on.svg';
+import dark from '../../assets/off.svg';
 import tiktokLight from '../../assets/tiktok-light.svg';
 import tiktokDark from '../../assets/tiktok-dark.svg';
 import githubLight from '../../assets/github-light.svg';
@@ -14,7 +14,7 @@ import { useTheme } from '../../common/ThemeContext';
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
-  const themeIcon = theme === 'light' ? sun : moon;
+  const themeIcon = theme === 'light' ? light : dark;
   const tiktokIcon = theme === 'light' ? tiktokLight : tiktokDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const snapIcon = theme === 'light' ? snapLight : snapDark;

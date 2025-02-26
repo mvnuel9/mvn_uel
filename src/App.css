@@ -1,22 +1,26 @@
 :root {
-  --background-color: #ffffff;
-  --btn-color: #d48103;
+  --background-color: #e2da7d;
+  --btn-color: #0364d4;
   --btn-text-color: #ffffff;
   --project-card-bg: #ffffff00;
-  --text-color: #222;
+  --text-color: #000000;
   --form-text-color: #555;
-  --footer-text-color: #888;
+  --footer-text-color: #000000;
+  --input: #fff;
 }
 
 [data-theme='dark'] {
-  --background-color: #222;
+  --background-color: #0f172a;
   --btn-color: #d48103;
   --btn-text-color: #fff;
   --project-card-bg: #fff;
   --text-color: #fff;
   --form-text-color: #fff;
-  --footer-text-color: #bbb;
+  --footer-text-color: #fff;
+  --input: #2b2b2b;
 }
+
+
 
 body {
   background-color: var(--background-color);
@@ -62,7 +66,7 @@ h1 {
 }
 
 h2{
-  color: #d48103;
+  color: #d40349;
   font-family: 'Courier New', Courier, monospace;
   display: inline-block;
   overflow: hidden;

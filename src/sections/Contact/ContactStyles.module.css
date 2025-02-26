@@ -29,7 +29,7 @@ textarea {
   border: #888 1px solid;
   box-sizing: border-box;
   justify-self: center;
-  background-color: var(--background-color);
+  background-color: var(--input);
   color: var(--form-text-color);
 }
 
